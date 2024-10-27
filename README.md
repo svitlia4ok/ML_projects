@@ -1,4 +1,11 @@
-Time Series Forecasting with ARIMA and Prophet
+This repository contains various machine learning projects, including:
+
+	•	[Time Series Forecasting](#time-series-forecasting-with-arima-and-prophet)
+	•	LSTM Deep Learning for Time Series Prediction
+
+Explore these projects to see implementations of advanced techniques in time series analysis and prediction.
+
+###Time Series Forecasting with ARIMA and Prophet[LSTM_Deep_learning_for_time_series.ipynb]LSTM_Deep_learning_for_time_series.ipynb
 
 This notebook is focused on time series forecasting, primarily using the ARIMA and Prophet models.
 
@@ -50,3 +57,37 @@ Instructions
 	3.	Evaluate the outputs and modify the model parameters as needed for different datasets.
 
 This notebook provides a comprehensive introduction to time series forecasting using ARIMA and Prophet, with clear steps for data preprocessing, model training, evaluation, and result visualization.
+
+
+
+
+
+[LSTM Deep Learning for Time Series Prediction]LSTM_Deep_learning_for_time_series.ipynb
+
+This project utilizes Long Short-Term Memory (LSTM) networks for forecasting time series data, specifically focusing on the prediction of international airline passenger numbers. The goal is to develop a neural network model that can accurately predict future passenger counts based on historical data.
+
+Project Overview
+
+The dataset used in this project spans from January 1949 to December 1960, comprising 12 years of monthly passenger counts. The task is to forecast the number of passengers in thousands for a given month, based on the number of passengers in previous months.
+
+Key Components
+
+	1.	Data Preparation:
+	•	The raw passenger count data is preprocessed to create a suitable format for training the LSTM model.
+	•	A sliding window approach is used to transform the time series data into input-output pairs for the model.
+	2.	LSTM Model Implementation:
+	•	A custom class AirModel is defined, inheriting from torch.nn.Module, which includes:
+	•	An LSTM layer to capture temporal dependencies in the data.
+	•	A linear layer to output the final predictions.
+	•	The model is trained using the Adam optimizer and Mean Squared Error (MSE) loss function.
+	3.	Training Process:
+	•	The model is trained over 2000 epochs, with loss recorded and visualized to monitor performance.
+	•	Validation steps are incorporated to evaluate the model on unseen data and ensure it generalizes well.
+	4.	Results Visualization:
+	•	The project includes code to visualize the predicted values against the actual passenger counts, providing insight into the model’s performance on both training and testing datasets.
+
+Conclusion
+
+This project showcases the application of LSTM networks for time series forecasting, demonstrating the effectiveness of deep learning in capturing trends and patterns in sequential data. Through extensive training and validation, the model aims to achieve reliable predictions that can assist in planning and decision-making for airline operations.
+
+Feel free to customize any part of the description or add more specific details based on your preferences!
