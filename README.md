@@ -83,5 +83,3 @@ Key Components
 Conclusion
 
 This project showcases the application of LSTM networks for time series forecasting, demonstrating the effectiveness of deep learning in capturing trends and patterns in sequential data. Through extensive training and validation, the model aims to achieve reliable predictions that can assist in planning and decision-making for airline operations.
-
-Feel free to customize any part of the description or add more specific details based on your preferences!
