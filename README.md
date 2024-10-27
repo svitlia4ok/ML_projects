@@ -50,11 +50,6 @@ Libraries Used
 	•	fbprophet (Prophet): For building and training the Prophet model.
 	•	matplotlib and seaborn: For visualizing the data and model predictions.
 
-Instructions
-
-	1.	Load the notebook and ensure all required libraries are installed.
-	2.	Run each cell sequentially to reproduce the time series analysis and forecasting.
-	3.	Evaluate the outputs and modify the model parameters as needed for different datasets.
 
 This notebook provides a comprehensive introduction to time series forecasting using ARIMA and Prophet, with clear steps for data preprocessing, model training, evaluation, and result visualization.
 
