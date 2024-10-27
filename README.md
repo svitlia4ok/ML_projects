@@ -5,7 +5,7 @@ This repository contains various machine learning projects, including:
 
 Explore these projects to see implementations of advanced techniques in time series analysis and prediction.
 
-####Time Series Forecasting with ARIMA and Prophet
+~~~~Time Series Forecasting with ARIMA and Prophet
 
 This notebook is focused on time series forecasting, primarily using the ARIMA and Prophet models.
 
@@ -61,8 +61,7 @@ This notebook provides a comprehensive introduction to time series forecasting u
 
 
 
-
-####LSTM Deep Learning for Time Series Prediction
+~~~~LSTM Deep Learning for Time Series Prediction
 
 This project utilizes Long Short-Term Memory (LSTM) networks for forecasting time series data, specifically focusing on the prediction of international airline passenger numbers. The goal is to develop a neural network model that can accurately predict future passenger counts based on historical data.
 
