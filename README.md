@@ -83,3 +83,17 @@ Key Components
 Conclusion
 
 This project showcases the application of LSTM networks for time series forecasting, demonstrating the effectiveness of deep learning in capturing trends and patterns in sequential data. Through extensive training and validation, the model aims to achieve reliable predictions that can assist in planning and decision-making for airline operations.
+
+
+~~~~Automated Information Retrieval Using LLMs and Agents
+
+This project aims to develop a system that leverages language models (LLMs) and agents for efficient information retrieval on scientific topics.
+
+	1.	LLM Invocation with Basic Prompt:
+The project begins with the invocation of ChatGPT using a simple, structured prompt focused on “Quantum Computing.” The prompt seeks a brief definition, key benefits, and current research developments, limited to 200 characters for efficiency.
+	2.	Parameterized Prompt Creation:
+Building on the initial setup, the functionality is enhanced to allow dynamic topic input using PromptTemplate from LangChain. This allows the model to generate responses for various topics, including “Bayesian methods in machine learning,” “Transformers in machine learning,” and “Explainable AI.” Each generated explanation is printed for review.
+	3.	Agent for Automated Information Retrieval:
+The project culminates in creating a ReAct-type agent that automates the search for the latest scientific publications. The agent is guided by a prompt to gather relevant information and produce a structured list of publications, including titles, authors, and brief descriptions.
+
+Overall, this project integrates LLMs and automated agents to streamline the process of acquiring up-to-date information in the scientific field.
